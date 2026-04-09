@@ -1,0 +1,60 @@
+# Docker
+*.log
+*.pid
+*.tmp
+*.tmpfs
+docker-compose.override.yaml
+.env
+.venv
+venv/
+
+# Airflow
+logs/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.python_env/
+airflow.db
+airflow.cfg
+webserver_config.py
+
+# Hadoop / HDFS
+hadoop_namenode/
+hadoop_datanode/
+postgres-db-volume/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+Thumbs.db
+desktop.ini
+
+# Secrets
+*.pem
+*.key
+*.crt
+.env.local
+.env.*.local
+
+# Temporary files
+/tmp/
+/shared/
+/tmp/*
+/shared/*
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Data directories
+/data/
+/raw/
+/processed/
